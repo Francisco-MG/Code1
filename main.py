@@ -1,9 +1,13 @@
 """Main module for Code1 application."""
 
+from code1.app import App
+
 
 def main():
     """Main entry point for the application."""
-    print("Hello from Code1!")
+    app = App()
+    print(app.greet())
+    print(app.run())
     return 0
 
 
