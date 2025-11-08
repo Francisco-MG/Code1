@@ -1,0 +1,7 @@
+# requirements.txt — stack stable pour extraction/traitements xAPI
+# Pinnings choisis pour éviter les segfaults vus avec des versions récentes.
+
+numpy==2.0.2
+pandas==2.1.4
+pyarrow==15.0.2
+requests>=2.31,<3
